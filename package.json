@@ -1,0 +1,32 @@
+{
+  "name": "owntracks-logger",
+  "version": "0.1.0",
+  "description": "an application to log location updates from owntracks to a mongodb collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/takinbo/owntracks-logger"
+  },
+  "keywords": [
+    "owntracks",
+    "mqtt",
+    "IoT",
+    "mongodb",
+    "gps"
+  ],
+  "author": "Tim Akinbo <takinbo@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/takinbo/owntracks-logger/issues"
+  },
+  "homepage": "https://github.com/takinbo/owntracks-logger",
+  "dependencies": {
+    "mongodb": "^1.4.30",
+    "mqtt": "^1.0.7"
+  }
+}
